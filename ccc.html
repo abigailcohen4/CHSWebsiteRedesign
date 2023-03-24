@@ -1,0 +1,290 @@
+<!DOCTYPE html> 
+<!--made by Abi Cohen and Courtney Campbell--> 
+<style>
+	@media screen and (min-width: 800px){
+		p.pageTitle, div#pageTrack, div.tracks_dropdown_content{ font-size: 50px; }
+
+		.pageTitle{ width: 18%; }
+	}
+
+	@media screen and (max-width: 799px){
+		p.pageTitle, div#pageTrack, div.tracks_dropdown_content{ font-size: 30px; }
+
+		.pageTitle{ width: 18%; }
+
+		div#breadcrumbs{ margin-top: -20px; }
+	}
+
+	@media screen and (max-width: 399px){
+		.pageTitle{
+			margin-top:12%;
+			width: 100%; 
+		}
+
+		#ddacademics{ font-weight: bold; }
+
+		p.pageTitle, div#pageTrack, div.tracks_dropdown_content{ font-size: 25px; }
+
+		div#breadcrumbs{ margin-top: -10px; }
+
+		div#trackPageHeader{ margin-top: 10%; }
+	}
+</style>
+<html>
+	<head> 
+		<title>Cultural Communications Club - CHS</title> 
+		<link type="text/css" rel="stylesheet" href="internalstyles.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Nunito:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	</head>
+	<body>
+		<div id="header">
+			<div id="menubutton">
+				<img src="./images/menubutton.png" alt="The menu button" width="60%"> 
+			</div>
+			<a href="index.html" class="logo_tagline">						
+				<img src="./images/CHSlogo.png" alt="The CHS Logo" width="70%"> 
+				<p id="tagline">educating the next generation<br>of creative minds</p>
+			</a>
+			<a href="index.html" class="title">
+				<p id="CHS">Communications High School</p>
+				<p id="MCVSD">A Monmouth County Vocational School District Career Academy</p> 
+			</a>
+		</div>
+		<div class="content"> 
+			<div class="navbar">
+				<p class="navitemMobile" id="homeTab"><a href="index.html" style="text-decoration:none;">Home</a></p>
+				<p class="navitemDesktop" id="homeTab"><a href="index.html" style="text-decoration:none;">Home</a></p>
+				<div id="dropdown_about" style="width: 100%;">
+					<p id="ddabout" class="navitemMobile">About</p>
+					<p class="navitemDesktop"><a href="about.html">About</a></p>
+					<div class="dropdown_content" id="dropdown_content_about">
+						<p class="backToMenuMobile" id="ddTopAbout">< Back To Menu</p>
+						<a href="about.html" class="ddTopMobile">About</a>
+						<a href="https://drive.google.com/file/d/1hjiR61ww3lU0JmtpIQuJ2TGpOt2yTEu8/view" style="display: block;">CHS Restart Plan</a>
+						<a href="#" style="display: block;">Profile</a>
+						<a href="https://rc.doe.state.nj.us/runreport.aspx?type=school&county=25&district=3260&school=004&year=2018-2019" style="display: block;">School Report Card</a>
+						<a href="#" style="display: block;">Courses</a>
+						<a href="#" style="display: block;">Admissions</a>
+						<a href="frequentlyAskedQuestions.html" style="display: block; border-bottom: none;">FAQ</a> 
+					</div>
+				</div>
+				<div id="dropdown_academics" style="width: 100%;">
+					<p id="ddacademics" class="navitemMobile">Academics</p>
+					<p id="chosenTabDesktop" class="navitemDesktop"><a href="academics.html">Academics</a></p>
+					<div class="dropdown_content" id="dropdown_content_academics">
+						<p class="backToMenuMobile" id="ddTopAcademics">< Back To Menu</p>
+						<a href="academics.html" class="ddTopMobile">Academics</a>
+						<a href="#" style="display: block;">Courses</a>
+						<a href="tracks.html" style="display: block;">Tracks</a>
+						<a href="#" style="display: block;">Grading</a>
+						<a href="#" style="display: block;">Mentorship</a>
+						<a href="#" style="display: block; border-bottom: none;">Faculty</a>
+					</div>
+				</div>
+				<div id="dropdown_studentlife" style="width: 100%;"> 
+					<p id="ddstudentlife" class="navitemMobile">Student Life</p> 
+					<p class="navitemDesktop"><a href="studentLife.html">Student Life</a></p> 
+					<div class="dropdown_content" id="dropdown_content_studentlife">
+						<p class="backToMenuMobile" id="ddTopSL">< Back to Menu</p>
+						<a href="studentLife.html" class="ddTopMobile">Student Life</a>
+						<a href="ccc.html" style="display: block;">Clubs</a>
+						<a href="#" style="display: block;">Student Government</a> 
+						<a href="#" style="display: block; border-bottom: none;">Fundraisers</a>
+					</div>
+				</div>
+				<div id="dropdown_forstudents" style="width: 100%;"> 
+					<p id="ddforstudents" class="navitemMobile">For Students</p>
+					<p class="navitemDesktop">For Students</p>
+					<div class="dropdown_content" id="dropdown_content_forstudents">
+						<p class="backToMenuMobile" id="ddTopFS">< Back to Menu</p>
+						<a href="#" class="ddTopMobile">For Students</a>
+						<a href="https://calendar.google.com/calendar/embed?src=ctemc.org_0lma0i2oudaa2vd59s52canm2g@group.calendar.google.com&amp;ctz=America/New_York&amp;gsessionid=OK" style="display: block;">Calendar</a>
+						<a href="https://mcvsd.powerschool.com/public/" style="display: block;">PowerSchool</a> 
+						<a href="http://connection.naviance.com/communications" style="display: block;">Naviance</a>
+						<a href="#" style="display: block;">Lunch Menu</a> 
+						<a href="#" style="display: block;">Supplies</a>
+						<a href="http://chsguidancedept.blogspot.com/" style="display: block; border-bottom: none;">Guidance Blog</a>
+					</div> 
+				</div>
+				<div id="dropdown_forparents" style="width: 100%;"> 
+					<p id="ddforparents" class="navitemMobile" style="border-bottom: 0px;">For Parents</p>
+					<p class="navitemDesktop" style="border-bottom: 0px;">For Parents</p>
+					<div class="dropdown_content" id="dropdown_content_forparents"> 
+						<p class="backToMenuMobile" id="ddTopFP">< Back to Menu</p>
+						<a href="#" class="ddTopMobile">For Parents</a>
+						<a href="https://calendar.google.com/calendar/embed?src=ctemc.org_0lma0i2oudaa2vd59s52canm2g@group.calendar.google.com&amp;ctz=America/New_York&amp;gsessionid=OK" style="display: block;">Calendar</a>
+						<a href="https://chs-psfa.org/" style="display: block;">PSFA</a> 
+						<a href="https://www.mypaymentsplus.com/welcome" style="display: block; border-bottom: none;">MyPaymentPlus</a>
+					</div> 
+				</div>
+				<p class="navitemDesktop" id="applytab" style="background-color: #1C4587;">Apply Now!</p>
+				<p class="navitemMobile" id="applytab" style="background-color: #1C4587;">Apply Now!</p>
+			</div>
+			<div id="backgroundSq"></div>
+			<div id="breadcrumbs">
+				<a href="./index.html">Home</a> > <a href="studentLife.html">Student Life</a> > <a href="#">Clubs</a> > <a href="#"> Cultural Communications</a>
+			</div>
+			<div id="container">
+				<div id="trackPageHeader">
+					<p class="pageTitle">Club</p>
+					<div class="dropdown_tracks">
+						<div id="pageTrack">
+							Cultural Communications
+							<img id="dropdown_bluearrow" src="./images/dropdownmenuarrows_blue.png" style="margin-left: 0px"> 
+							<img id="dropdown_whitearrow" src="./images/dropdownmenuarrows_white.png" style="margin-left: 0px"> 
+						</div>
+						<div class="tracks_dropdown_content">
+							<a href="#">The Inkblot</a>
+							<a href="#">WCHS</a>
+							<a href="#">Lit Mag</a>
+							<a href="#">Drama</a>
+							<a href="#">Digital Video</a>
+							<a href="#">NAHS</a>
+							<a href="#">NHS</a>
+							<a href="#">SkillsUSA</a>
+						</div> 
+					</div>
+				</div>
+				<picture>
+					<source media="(max-width: 399px)" srcset="./images/CCC.jpg"> 
+					<source media="(min-width: 400px)" srcset="./images/CCC.jpg"> 
+					<img class="trackPageImage" src="./images/CCC.jpg" alt="A scene from the CCC's annual festival displaying world cultures."> 
+				</picture>
+				<div id="tvtrack">
+					<div class="subhead">Club Overview</div>
+					<div id="box" class="broadcasttrack">
+						<img src="./images/cccoverview.png" alt="Students are outside wearing red shirts at a volunteering event." class="round" align="right">
+						<p class="answer">The Cultural Communications Club is a community service club that primarily fundraises for St. Jude Children's Hospital with weekly breakfast and exit sales. The club's main event of the year is a cultural festival, where students create country displays and all proceeds go to St. Jude's. Other CCC activities include volunteering at Special Olympic bowling events, creating a holiday party for pre-schoolers in the Head Start program, and organizing breakfast for senior citizens in Howell.</p>
+						
+					</div>
+				</div>
+				<div id="radiotrack">
+					<div class="subhead">Council</div>
+					<div id="box" class="broadcasttrack">
+						<img src="./images/ccccouncil.png" alt="Four students and a teacher stand in front of a bulletin board." class="round" align="right">
+						<ul class="answer" style="font-size: 18px; padding-inline-start: 0px;">
+							<li><strong>Advisor: </strong><br>Señora Campbell</li>
+							<li><strong>President: </strong><br>Maddy Williams and Dani McLaughlin</li>
+							<li><strong>Vice President: </strong><br>Kiera Higgins</li>
+							<li><strong>Secretary: </strong><br>Brielle Karolak</li>
+							<li><strong>Council: </strong><br>Erin Burke and Lakshya Vegiraju</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer"> 
+				<hr>
+				Find us on <a href="https://twitter.com/ComHS_MCVSD">Twitter</a> and <a href="https://www.facebook.com/pages/Communications%20High%20School/109233965769767/">Facebook!</a><br/>
+				1740 New Bedford Road, Wall, NJ 07719<br/>
+				Phone: 732-681-1010<br/>
+				Fax: 732-681-6780<br/>
+			</div>
+		</div>
+		<script>
+			var menubutton = document.querySelector('#menubutton');
+	      var header = document.querySelector('#header');
+	      var nav = document.querySelector('.content');
+
+	      var ddabout=document.querySelector('#ddabout'); 
+	      var dropdownAbout=document.querySelector('#dropdown_content_about'); 
+	      var ddacademics=document.querySelector('#ddacademics'); 
+	      var dropdownAcademics=document.querySelector('#dropdown_content_academics');
+	      var ddSL=document.querySelector('#ddstudentlife'); 
+	      var dropdownSL=document.querySelector('#dropdown_content_studentlife');
+	      var ddFS=document.querySelector('#ddforstudents'); 
+	      var dropdownFS=document.querySelector('#dropdown_content_forstudents');
+	      var ddFP=document.querySelector('#ddforparents'); 
+	      var dropdownFP=document.querySelector('#dropdown_content_forparents');
+
+	      var ddTopAbout = document.querySelector('#ddTopAbout'); 
+	      var ddTopAcademics = document.querySelector('#ddTopAcademics'); 
+	      var ddTopSL = document.querySelector('#ddTopSL'); 
+	      var ddTopFS = document.querySelector('#ddTopFS'); 
+	      var ddTopFP = document.querySelector('#ddTopFP'); 
+
+	      var pageTrack = document.querySelector('#pageTrack'); 
+	      var tracksdd = document.querySelector('.tracks_dropdown_content')
+
+	      pageTrack.addEventListener('click', function(e){
+	      	tracksdd.classList.toggle('open');
+	      	e.stopPropagation();
+	      }); 
+
+	      menubutton.addEventListener('click', function(e) {
+	        nav.classList.toggle('open');
+	        dropdownAbout.classList.remove('open');
+	        dropdownAcademics.classList.remove('open');
+	        dropdownSL.classList.remove('open'); 
+	        dropdownFS.classList.remove('open'); 
+	        dropdownFP.classList.remove('open'); 
+	        e.stopPropagation();
+	      });
+
+	      header.addEventListener('click', function(e) {
+	        nav.classList.remove('open');
+	        dropdownAbout.classList.remove('open');
+	        dropdownAcademics.classList.remove('open');
+	        dropdownSL.classList.remove('open'); 
+	        dropdownFS.classList.remove('open'); 
+	        dropdownFP.classList.remove('open'); 
+	        e.stopPropagation();
+	      });
+
+	      ddabout.addEventListener('click', function(e){
+	      	dropdownAbout.classList.toggle('open'); 
+	      	e.stopPropagation(); 
+	      })
+
+	      ddacademics.addEventListener('click', function(e){
+	      	dropdownAcademics.classList.toggle('open'); 
+	      	e.stopPropagation(); 
+	      })
+
+	      ddstudentlife.addEventListener('click', function(e){
+	      	dropdownSL.classList.toggle('open'); 
+	      	e.stopPropagation(); 
+	      })
+
+	      ddFS.addEventListener('click', function(e){
+	      	dropdownFS.classList.toggle('open'); 
+	      	e.stopPropagation(); 
+	      })
+
+	      ddFP.addEventListener('click', function(e){
+	      	dropdownFP.classList.toggle('open'); 
+	      	e.stopPropagation(); 
+	      })
+
+	      ddTopAbout.addEventListener('click', function(e) {
+	        dropdownAbout.classList.remove('open');
+	        e.stopPropagation();
+	      });
+
+	      ddTopAcademics.addEventListener('click', function(e) {
+	      	dropdownAcademics.classList.remove('open');
+	      	e.stopPropagation();
+	      });
+
+	      ddTopSL.addEventListener('click', function(e) {
+	      	dropdownSL.classList.remove('open'); 
+	      	e.stopPropagation();
+	      });
+
+	      ddTopSL.addEventListener('click', function(e) {
+	      	dropdownSL.classList.remove('open'); 
+	      	e.stopPropagation();
+	      });
+
+	      ddTopFS.addEventListener('click', function(e) {
+	        dropdownFS.classList.remove('open'); 
+	        e.stopPropagation();
+	      });
+
+	      ddTopFP.addEventListener('click', function(e) {
+	        dropdownFP.classList.remove('open'); 
+	        e.stopPropagation();
+	      });
+	    </script>
+	</body>
+</html>
